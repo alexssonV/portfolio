@@ -1,0 +1,213 @@
+body {
+    background-color: ghostwhite;
+    font-size: 20px;
+    padding-top: 92px;
+    z-index: 5;
+    font-family: 'Charis SIL', serif;
+    position: relative;
+}
+
+header {
+    z-index: 999;
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive; 
+}
+
+#pseudologo {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    background: inherit;
+}
+
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+#pseudologo {
+    justify-content: flex-start;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    font-size: 1.7rem;
+}
+
+.index {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* ABOUT ME */
+
+figure {
+    display: flex;
+    width: 400px;
+    height: 400px; 
+    margin-top: 40px;
+}
+
+figure img {
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+figcaption {
+    margin-left: 10px;
+    align-self: center;
+}
+
+#bio {
+    display: inline-flex;
+    justify-content: center;
+    width: 90%;
+}
+
+#aboutme {
+    padding: 10px 10px;
+    margin-left: 100px;
+}
+
+#aboutme p {
+    width: 90%;
+}
+
+#aboutme h1 {
+    margin-bottom: 30px;
+}
+
+#bio-text {
+    text-indent: 2%;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+/* SKILLS */
+
+#skills {
+    display: block;
+    padding: 10px 10px;
+    margin-left: 100px;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    padding: 0 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#skills li {
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+#skills li:hover {
+    transform: scale(1.5);
+}
+
+.tooltip {
+    padding-left: 5px;
+    display: none;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#skills li:hover > .tooltip {
+    display: inline;
+}
+
+/* PROJECTS */
+
+#projects {
+    margin-left: 100px;
+    padding: 10px 10px;
+    line-height: 35px;
+}
+
+#projects ul {
+    margin-left: 40px;
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+#projects i {
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 60px;
+    justify-content: flex-start;
+}
+
+footer img {
+    width: 400px;
+    height: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10%;
+}
+
+#ukraine {
+    margin-left: 100px;
+    padding: 10px 10px;
+    line-height: 35px;
+    text-indent: 2%;
+}
+
+#ukraine h3 {
+    text-indent: 0%;
+}
+
+/* PRAETORIANS EASTER EGG */
+
+#pi {
+    bottom: 6px;
+    right: 10px;
+    position: fixed;
+}
+
+#pi a {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color: black;
+    opacity: 0.5;    
+}
